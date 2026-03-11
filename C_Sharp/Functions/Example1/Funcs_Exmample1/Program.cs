@@ -11,11 +11,11 @@
 
         #region Average of three numbers
         Console.WriteLine("Please enter three numbers: ");
-        int a = int.Parse(Console.ReadLine());
-        int b = int.Parse(Console.ReadLine());
-        int c = int.Parse(Console.ReadLine());
-        double avg = Average(b, c, a);
-        Console.WriteLine($"The average of {a}, {b} and {c} is: {avg:F2}");
+        int n1 = int.Parse(Console.ReadLine());
+        int n2 = int.Parse(Console.ReadLine());
+        int n3 = int.Parse(Console.ReadLine());
+        double avgCalc = Average(n1, n2, n3);
+        Console.WriteLine($"The average of {n1}, {n2} and {n3} is: {avgCalc:F2}");
         #endregion
     }
 
