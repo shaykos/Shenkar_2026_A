@@ -1,0 +1,15 @@
+/Users/shaykos/Github/Shenkar_2026_A/C_Sharp/Functions/Epsilon/ConsoleApp1/bin/Debug/net10.0/ConsoleApp1
+/Users/shaykos/Github/Shenkar_2026_A/C_Sharp/Functions/Epsilon/ConsoleApp1/bin/Debug/net10.0/ConsoleApp1.deps.json
+/Users/shaykos/Github/Shenkar_2026_A/C_Sharp/Functions/Epsilon/ConsoleApp1/bin/Debug/net10.0/ConsoleApp1.runtimeconfig.json
+/Users/shaykos/Github/Shenkar_2026_A/C_Sharp/Functions/Epsilon/ConsoleApp1/bin/Debug/net10.0/ConsoleApp1.dll
+/Users/shaykos/Github/Shenkar_2026_A/C_Sharp/Functions/Epsilon/ConsoleApp1/bin/Debug/net10.0/ConsoleApp1.pdb
+/Users/shaykos/Github/Shenkar_2026_A/C_Sharp/Functions/Epsilon/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shaykos/Github/Shenkar_2026_A/C_Sharp/Functions/Epsilon/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.AssemblyInfoInputs.cache
+/Users/shaykos/Github/Shenkar_2026_A/C_Sharp/Functions/Epsilon/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.AssemblyInfo.cs
+/Users/shaykos/Github/Shenkar_2026_A/C_Sharp/Functions/Epsilon/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.csproj.CoreCompileInputs.cache
+/Users/shaykos/Github/Shenkar_2026_A/C_Sharp/Functions/Epsilon/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.sourcelink.json
+/Users/shaykos/Github/Shenkar_2026_A/C_Sharp/Functions/Epsilon/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.dll
+/Users/shaykos/Github/Shenkar_2026_A/C_Sharp/Functions/Epsilon/ConsoleApp1/obj/Debug/net10.0/refint/ConsoleApp1.dll
+/Users/shaykos/Github/Shenkar_2026_A/C_Sharp/Functions/Epsilon/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.pdb
+/Users/shaykos/Github/Shenkar_2026_A/C_Sharp/Functions/Epsilon/ConsoleApp1/obj/Debug/net10.0/ConsoleApp1.genruntimeconfig.cache
+/Users/shaykos/Github/Shenkar_2026_A/C_Sharp/Functions/Epsilon/ConsoleApp1/obj/Debug/net10.0/ref/ConsoleApp1.dll
