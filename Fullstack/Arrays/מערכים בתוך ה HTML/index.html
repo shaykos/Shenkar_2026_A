@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>תלמידים וציונים</title>
+    <script type="module" src="./scripts/index.js"></script>
+</head>
+
+<body>
+    <section>
+        <section id="left">
+            <form id="form">
+                <label>
+                    Student's name:
+                    <input type="text" id="name" required />
+                </label>
+                <label>
+                    Student's grade:
+                    <input type="number" id="grade" min="0" max="100" required/>
+                </label>
+                <button type="submit">Add</button>
+            </form>
+        </section>
+        <section id="right">
+            <h1>Students</h1>
+            <div id="content"></div>
+        </section>
+    </section>
+</body>
+
+</html>
