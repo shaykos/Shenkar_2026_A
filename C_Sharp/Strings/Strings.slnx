@@ -1,2 +1,4 @@
 <Solution>
+  <Project Path="OFEK_Q7/OFEK_Q7.csproj" />
+  <Project Path="Q7/Q7.csproj" />
 </Solution>
