@@ -4,18 +4,48 @@
     {
         static void Main(string[] args)
         {
-            bool[,] matrix = {
-                { true, false, false, false },
-                { false, true ,true, false},
-                { false, true, false, true},
-                { false, true, true, false},
-                { false, false, false, false}
-            };
+            //bool[,] matrix = {
+            //    { true, false, false, false },
+            //    { false, true ,true, false},
+            //    { false, true, false, true},
+            //    { false, true, true, false},
+            //    { false, false, false, false}
+            //};
 
-            int[,] board = CreateBoard(matrix);
+            //int[,] board = CreateBoard(matrix);
 
-            PrintBoard(board);
+            //PrintBoard(board);
+
+
+
+            //מחלקות וקלאסים
+            Person p1 = new Person("hfsjkd...,,,hjkhjk", 750, 'M', true); //Person - Type | p1 - name of property | new - Creates a new memory space for p1 | Person() - Constructor
+            Person p2 = new Person(); //בונים אובייקט/מימוש/מופע של מחלקה/קלאס
+
+            Console.WriteLine(p1.GetHasGlasses());
+
+            p1.SetAge(55);
+            Console.WriteLine(p1.GetAge());
+
+            p1.SetAge(98);
+            Console.WriteLine(p1.GetAge());
+            //p3.Person(); //ניסיון קריאה לבנאי לאחר יצירת אובייקט - לא עובד. בנאי יוצר אובייקט פעם אחת וזהו
+
+            //string n = Console.ReadLine();
+
+            //Console.WriteLine(p1.GetName());
+
+            //p1.name - קריאה לערך
+            //p1.SetName() - קריאה לפונקציה
+            //פונקציה חייבת להיכתב עם סוגריים. תכונה תהיה ללא סוגריים - לעולם !
+
+
+            
         }
+
+        static void Test() { }
+        static void Test(int x) { }
+        static int Test(double x) { return 0; }
 
 
         static int[,] CreateBoard(bool[,] matrix)
