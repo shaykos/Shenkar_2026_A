@@ -1,0 +1,1 @@
+export let studentsList = new Array(); // רשימה גלובלית לשמירת הסטודנטים שנרשמו

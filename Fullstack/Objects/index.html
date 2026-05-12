@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="./scripts/main.js"></script>
+</head>
+
+<body>
+    <div>
+        <div>
+            <h2>Student Registration</h2>
+            <form id="studentForm">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter full name" required><br><br>
+
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age" placeholder="Enter age" min="1" required><br><br>
+
+                <label for="city">City:</label><br>
+                <input type="text" id="city" name="city" placeholder="Enter city" required><br><br>
+
+                <label for="school">School:</label><br>
+                <input type="text" id="school" name="school" placeholder="Enter school name" required><br><br>
+
+                <label>Grades (numbers, comma-separated):</label><br>
+                <input type="text" id="grades" name="grades" placeholder="e.g. 90, 85, 78" pattern="[\d\s,]+"
+                    required><br><br>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+
+        <aside id="studentsPanel">
+            <h3>Registered Students</h3>
+            <ul id="studentsList"></ul>
+            <p id="totalStudents"></p>
+        </aside>
+    </div>
+
+
+</body>
+
+</html>
