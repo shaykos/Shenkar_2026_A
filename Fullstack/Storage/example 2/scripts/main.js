@@ -17,3 +17,11 @@ if (location.pathname.includes('profile.html')) {
     document.querySelector('#user_dob p').textContent = currentUser.dob;
     document.querySelector('#user_pass p').textContent = currentUser.pass;
 }
+
+/*
+next week: 
+Store example (localStorage/sessionStorage)
+----------------------------
+FETCH API EXAMPLE
+Geolocation API EXAMPLE (?)
+*/
