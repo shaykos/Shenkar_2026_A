@@ -9,6 +9,13 @@ export function registerUser(event) {
     let password = document.querySelector('#regPassword').value;
     let dob = document.querySelector('#regDob').value;
 
+    //בדיקה שהמייל לא קיים כבר
+    let isEmailTaken = users.some((user) => user.email == email);
+    if (isEmailTaken) {
+        alert('המייל כבר קיים במערכת');
+        return;
+    }
+
     let u = new User(name, email, dob, password);
 
     users.push(u);
@@ -31,7 +38,7 @@ export function loginUser(event) {
     let currentUser = users.find((user) => user.pass == password && user.email == email);
 
     if (currentUser) {
-        location.href = "/example 2/profile.html";
+        location.href = "/profile.html";
         sessionStorage.setItem('currentUser', JSON.stringify(currentUser));
     }
 
