@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>העגלה שלי | חנות קפה</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <script type="module" src="./scripts/main.js"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="topbar">
+            <p>משלוחים מהיום להיום באזור המרכז</p>
+            <a href="tel:+972000000000">להזמנות: 0000-000-000</a>
+        </div>
+        <div class="header-inner">
+            <a class="brand" href="./index.html" aria-label="Coffee Shop home">
+                <span class="brand-mark">☕</span>
+                <span class="brand-text">
+                    <strong>Coffee Shop</strong>
+                    <small>קפה טרי בכל יום</small>
+                </span>
+            </a>
+            <div class="header-controls">
+                <nav class="site-nav" aria-label="ראשי">
+                    <a href="./index.html#products">מוצרים</a>
+                    <a href="./index.html#about">אודות</a>
+                    <a href="./index.html#contact">צור קשר</a>
+                </nav>
+                <a href="./cart.html" class="cart-button" aria-label="עגלה">
+                    <span class="cart-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" focusable="false">
+                            <path d="M3.5 4h2.2l1.2 6.2a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 1.9-1.4l1.4-4.7H8.2"></path>
+                            <circle cx="10" cy="18.5" r="1.5"></circle>
+                            <circle cx="17" cy="18.5" r="1.5"></circle>
+                        </svg>
+                    </span>
+                    <span class="cart-count" id="cart-count" aria-live="polite">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="cart-page-section">
+            <h1>העגלה שלי</h1>
+            <p class="cart-page-subtitle">כאן אפשר לראות את כל המוצרים שהוספת, לעדכן את הכמות הכוללת ולחזור לחנות.</p>
+            <div class="cart-layout">
+                <div class="cart-items" id="cart-items"></div>
+                <aside class="cart-summary" id="cart-summary"></aside>
+            </div>
+            <a class="back-to-shop" href="./index.html#products">חזרה למוצרים</a>
+        </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+        <div class="footer-grid">
+            <div>
+                <h2>Coffee Shop</h2>
+                <p>חנות קפה שכונתית עם משלוחים, ייעוץ אישי ומבחר רחב של מוצרים.</p>
+            </div>
+            <div>
+                <h3>שעות פעילות</h3>
+                <p>א'-ה' 08:00-20:00</p>
+                <p>ו' 08:00-14:00</p>
+            </div>
+            <div>
+                <h3>צור קשר</h3>
+                <p>טלפון: 0000-000-000</p>
+                <p>אימייל: hello@coffee-shop.co.il</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
